@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    background-color:rgb(212, 212, 212);
+}
+nav {
+    background-color: rgb(150, 207, 235);
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.form {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.form-container {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 5px;
+}
+select {
+    background-color: rgb(255, 255, 196);
+}
+input {
+    background-color: rgb(255, 255, 196);
+}
+.show-list {
+    background-color:#FFF;
+    margin: 10px;
+    padding: 5px;
+    
+}
+.show-list > table {
+    width: 100%;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #000;
+}
+.search {
+    text-align: center;
+}
+.search > input {
+    width: 80%;
+    margin: 10px;
+}
+.text-alert {
+    text-align: center;
+    color: red;
+}
