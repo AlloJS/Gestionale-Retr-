@@ -50,3 +50,7 @@ th, td {
     text-align: center;
     color: red;
 }
+.rewrite {
+    background-color: #FFF;
+    width: 150px;
+}

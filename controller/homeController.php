@@ -2,6 +2,7 @@
     $message = "";
     
     if(isset($_POST['insert'])){
+        
         //FILTER INPUT 
         $rookie = filter_var($_POST['rookie'], FILTER_VALIDATE_INT);
         $name = filter_var($_POST['name'], FILTER_UNSAFE_RAW);
